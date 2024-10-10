@@ -43,20 +43,20 @@
 // }
 
 // new
-const a = 30;
-const opt = "*";
-const b = 40;
-switch (opt) {
-  case "+":
-    console.log(a + b);
-    break;
-  case "-":
-    console.log(a - b);
-    break;
-  case "*":
-    console.log(a * b);
-    break;
-  default:
-    console.log("invalit value");
-    break;
-}
+// const a = 30;
+// const opt = "*";
+// const b = 40;
+// switch (opt) {
+//   case "+":
+//     console.log(a + b);
+//     break;
+//   case "-":
+//     console.log(a - b);
+//     break;
+//   case "*":
+//     console.log(a * b);
+//     break;
+//   default:
+//     console.log("invalit value");
+//     break;
+// }
