@@ -1,4 +1,4 @@
-console.log("class 7");
+// console.log("class 7");
 // Functions
 
 // const sayhello = () => {
@@ -36,25 +36,25 @@ console.log("class 7");
 // unlimitedargs(10, 20, 30, 40, 50);
 
 // new
-function addunlimited() {
-  let ans = 0;
-  for (let i = 0; i < arguments.length; i++) {
-    // console.log(arguments[i]);
-    ans = ans + arguments[i];
-  }
-  return ans;
-}
-let res = addunlimited(10, 20, 30, 40);
-console.log(res);
+// function addunlimited() {
+//   let ans = 0;
+//   for (let i = 0; i < arguments.length; i++) {
+//     // console.log(arguments[i]);
+//     ans = ans + arguments[i];
+//   }
+//   return ans;
+// }
+// let res = addunlimited(10, 20, 30, 40);
+// console.log(res);
 
-//new
-const names = (...numbers) => {
-  // spread
-  let ans = 0;
-  for (let i = 0; i <= numbers.length; i++) {
-    ans = ans + numbers[i];
-  }
-  return ans;
-};
-let resq = names(1, 2, 3, 4, 5);
-console.log(resq);
+// //new
+// const names = (...numbers) => {
+//   // spread
+//   let ans = 0;
+//   for (let i = 0; i <= numbers.length; i++) {
+//     ans = ans + numbers[i];
+//   }
+//   return ans;
+// };
+// let resq = names(1, 2, 3, 4, 5);
+// console.log(resq);

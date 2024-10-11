@@ -16,10 +16,10 @@
 // console.log(res);
 
 //new
-const unlim = (...nums) => {
-  console.log(nums);
-};
-const res = unlim(1, 2, 3, 4, 5);
+// const unlim = (...nums) => {
+//   console.log(nums);
+// };
+// const res = unlim(1, 2, 3, 4, 5);
 // console.log(res);
 
 // hoisting
